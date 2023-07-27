@@ -1,6 +1,6 @@
 package Hw2Task2;
 
-<<<<<<< HEAD
+
 /**
  * Задание 2
  * try {
@@ -11,8 +11,7 @@ package Hw2Task2;
  *    System.out.println("Catching exception: " + e);
  * }
  * */
-=======
->>>>>>> 92994126d1efc44e329a6bfa47c6bca8e136a7fe
+
 import java.util.Arrays;
 
 public class HomeTask2 {
