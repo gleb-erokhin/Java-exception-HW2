@@ -11,8 +11,29 @@ public class Hw2Task1 {
     public static void main(String[] args) {
         // read input data
         Scanner scanner = new Scanner(System.in);
-        float title = Float.parseFloat(scanner.nextLine());
+        boolean stop = true;
+        float title = 0f;
+
         // processing display result
-        System.out.println(title);
+        System.out.println("Введите значение float (0,0):");
+        while (stop) {
+            if(scanner.hasNextFloat()){
+                title = scanner.nextFloat();
+                System.out.println(title);
+                stop = false;
+            } else {
+                System.out.println("Введенные данные = " + title + "," + "неверные, введите значение снова");
+            }
+        }
     }
-}
+//        while (stop) {
+//            if(scanner.hasNextFloat()){
+//                title = scanner.nextFloat();
+//                System.out.println(title);
+//                stop = false;
+//            } else {
+//                System.out.println("Введенные данные = " + title + "," + "неверные, введите значение снова");
+//            }
+//        }
+    }
+
