@@ -2,7 +2,7 @@ package Hw2Task3;
 
 import java.io.FileNotFoundException;
 
-<<<<<<< HEAD
+
 /**
  * public static void main(String[] args) throws Exception {
  *    try {
@@ -24,8 +24,7 @@ import java.io.FileNotFoundException;
  *    System.out.println(a + b);
  * }
  * */
-=======
->>>>>>> 92994126d1efc44e329a6bfa47c6bca8e136a7fe
+
 public class HomeTask3 {
     public static void main(String[] args) throws Exception {
         try {
