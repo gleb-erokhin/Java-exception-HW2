@@ -7,12 +7,15 @@ import java.util.Scanner;
  * Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
  * */
 public class HomeTask4 {
-//    Scanner scanner = new Scanner(System.in);
-//        System.out.print("Введите сообщение: ");
-//        if (scanner.hasNextString()) {
-//        int i = scanner.nextInt();
-//        System.out.println(i);
-//    } else {
-//        System.out.println("Вы ввели не целое число");
-//    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите строку:");
+        String string = in.nextLine();
+        string = string.trim();
+        if(string.isEmpty())
+            throw new IllegalArgumentException("Строка пустая!");
+        else
+            System.out.println(string);
+
+    }
 }
